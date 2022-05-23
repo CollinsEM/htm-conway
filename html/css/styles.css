@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: white;
+}
+div {
+    position: absolute;
+}
+span {
+    text-align: center;
+}
+canvas {
+    width: 100%;
+}
+#info {
+    right: 0;
+}
+#info table {
+    font-family: monospace;
+    table-layout: fixed;
+    border-collapse: collapse;
+    /* border: 3px solid purple; */
+}
+#info tr {
+    border: 3px solid gray;
+}
+#info td {
+    /* border: 1px solid white; */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#info td:nth-child(1) {
+    text-align: left;
+}
+#info td:nth-child(2) {
+    text-align: right;
+}
+#sequence {
+    text-align: center;
+    left: 0;
+    right: 100;
+}
+#sequence table {
+    /* margin-right: auto; */
+    font-family: monospace;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-style: inset;
+    empty-cells: show;
+    border-style: inset;
+}
+#sequence tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#sequence td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-width: 17px;
+    min-height: 17px;
+    max-width: 17px;
+    max-height: 17px;
+}
